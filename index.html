@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">Ahmad Khoiru Shofa</a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list grid">
+            <li class="nav-item">
+              <a href="#home" class="nav-link"
+                ><i class="fa-solid fa-house nav-icon"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"
+                ><i class="fa-solid fa-user nav-icon"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link"
+                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link"
+                ><i class="fa-solid fa-briefcase nav-icon"></i> Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link"
+                ><i class="fa-solid fa-image nav-icon"></i> Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link"
+                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+        </div>
+
+        <div class="nav-btns">
+          <!-- theme btn  -->
+          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-content grid">
+            <div class="home-social">
+              <a
+                href="https://www.linkedin.com/in/ahmad-khoiru-shofa/"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/chr_shaff/"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/ahmadkhoirushofa"
+                target="_blank"
+                class="home-social-icon"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+
+            <div class="home-img">
+              <svg
+                class="home-blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home-blob-img"
+                    x="-15"
+                    y="-5"
+                    href="Assets/Icons/logo1.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home-data">
+              <h1 class="home-title">Hi, I'm Ahmad Khoiru Shofa</h1>
+              <h3 class="home-subtitle">Machine Learning & Data Enthusiast</h3>
+              <p class="home-description">
+                a student majoring in Information Systems at State University of Surabaya with a keen interest in data and machine learning.
+              </p>
+              <a href="#contact" class="button button-flex">
+                Contact Me <i class="fa-regular fa-envelope button-icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home-scroll">
+            <a href="#about" class="home-scroll-button button-flex">
+              <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
+              <img class="home-scroll-mouse" src="Assets/mouse.svg" alt="" />
+              <span class="home-scroll-name">Scroll down</span>
+              <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <span class="section-subtitle">My Introduction</span>
+
+        <div class="about-container container grid">
+          <img src="Assets/Icons/aboutimg.png" alt="" class="about-img" />
+
+          <div class="about-data">
+            <p class="about-description">
+              As a 6th semester student majoring in Information Systems at State University of Surabaya, I focus on developing skills in the fields of Data Analytics and Machine Learning. I actively use Python in a number of data processing projects with critical thinking skills to gain insight into trends, patterns and valuable information to support decision making, and can work in a team, sharing analysis results in the form of visualization and effective communication.
+            </p>
+
+            <div class="about-info">
+              <div>
+                <span class="about-info-title">6+</span>
+                <span class="about-info-name"
+                  >Completed<br />
+                  project</span
+                >
+              </div>
+              <div>
+                <span class="about-info-title">2</span>
+                <span class="about-info-name"
+                  >Years of <br />
+                  specific data study</span
+                >
+              </div>
+              <div>
+                <span class="about-info-title">3rd</span>
+                <span class="about-info-name"
+                  >Year Student<br />
+                  </span
+                >
+              </div>
+            </div>
+
+            <div class="about-buttons">
+              <a
+                download=""
+                href="https://drive.google.com/file/d/1qisVakgZv5T0Bhvj0Be_peVWiZlK7ult/view?usp=sharing"
+                class="button button-flex"
+              >
+                Download Resume<i
+                  class="fa-solid fa-file-arrow-down button-icon"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills and qualification  -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <span class="section-subtitle">My Technical Skills and Tools</span>
+        <div class="skills-content container">
+          <div class="skills-name">Python</div>
+          <div class="skills-name">SQL</div>
+          <div class="skills-name">Tableau</div>
+          <div class="skills-name">Machine Learning</div>
+          <div class="skills-name">Deep Learning</div>
+          <div class="skills-name">Data Analytics</div>
+          <div class="skills-name">Data Visualization</div>
+          <div class="skills-name">Statistic Analysis</div>
+          <div class="skills-name">Google Colaboratory</div>
+          <div class="skills-name">VS Code</div>
+          <div class="skills-name">Ms. Excel</div>
+          <div class="skills-name">IBM SPSS</div>
+        </div>
+      </section>
+      <section class="qualification section">
+        <h2 class="section-title">Qualification</h2>
+        <span class="section-subtitle">My journey</span>
+
+        <div class="qualification-container container">
+          <div class="qualification-tabs">
+            <div
+              class="qualification-button button-flex qualification-active"
+              data-target="#education"
+            >
+              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+              Education
+            </div>
+            <div class="qualification-button button-flex" data-target="#work">
+              <i class="fa-solid fa-briefcase qualification-icon"></i>
+              Organization
+            </div>
+          </div>
+
+          <div class="qualification-section">
+            <div
+              class="qualification-content qualification-active"
+              data-content
+              id="education"
+            >
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">
+                    IBM SkillsBuild For AI & Cybersecurity
+                  </h3>
+                  <span class="qualification-subtitle">Hacktiv8 Studi Independent</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Feb 2024 -  Jun 2024
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">
+                    S1 Information System
+                  </h3>
+                  <span class="qualification-subtitle">State University of Surabaya</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    Aug 2021 - Now
+                  </div>
+                </div>
+              </div>
+
+              <!-- qualifi 3 -->
+
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Math and Sains</h3>
+                  <span class="qualification-subtitle">MAS Sunan Prawoto</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2018 - 2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- qualific content 2  -->
+            <div class="qualification-content" data-content id="work">
+              <!-- qualifi 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Legislative Commission Staff</h3>
+                  <span class="qualification-subtitle">Dewan Perwakilan Mahasiswa Fakultas Teknik</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2023 - 2024
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+
+              <!-- qualifi 2 -->
+
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-round"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">Chief Committee</h3>
+                  <span class="qualification-subtitle">IKAMASPRA Campus Expo 2023</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2022 - 2023
+                  </div>
+                </div>
+              </div>
+
+              <!-- qualifi 3 -->
+
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Chief Committee</h3>
+                  <span class="qualification-subtitle">Musyawarah Mahasiswa HIMTI UNESA</span>
+                  <div class="qualification-date">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    2023
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification-round"></span>
+                  <!-- <span class="qualification-line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-subtitle">Focused to</span>
+
+        <div class="services-container container grid">
+          <!-- service 1  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-code services-icon"></i>
+
+              <h3 class="services-title">
+                Data <br />
+                Analytics
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Data <br />
+                  Analytics
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Data Wrangling</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Data Pre-Processing</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Exploratory Data Analysis</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Data Visualization</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- service 2  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-brands fa-uikit services-icon"></i>
+              <h3 class="services-title">
+                Machine <br />
+                Learning
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Machine <br />
+                  Learning
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Classification</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Clustering</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Regression</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Analytic Predictive</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- service 3  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-hashtag services-icon"></i>
+              <h3 class="services-title">
+                Deep<br />
+                Learning
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Deep <br />
+                  Learning
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Natural Languange Processing</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Computer Vision</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Transfer Learning</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Projects</h2>
+        <span class="section-subtitle">Tableau Dashboard</span>
+
+        <div class="portfolio-container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- project1  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project1.png" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Amazon Sales Dashboard</h3>
+                <p class="portfolio-description">
+                  Dashboard to monitor and analyze sales data on Amazon effectively
+                </p>
+                <a
+                  href="https://public.tableau.com/app/profile/ahmad.khoiru.shofa/viz/AmazonSalesDashboard_17168360437690/Dashboard1?publish=yes"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+            <!-- project2  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project2.png" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">The WORLD University Ranking</h3>
+                <p class="portfolio-description">
+                  dashboard to analyze and compare various universities based on a number of criteria according to data from THE WORLD University Ranking.
+                </p>
+                <a
+                  href="https://public.tableau.com/app/profile/ahmad.khoiru.shofa/viz/THEUNIVERSITYRANKING/Dashboard1"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+            <!-- project3  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project3.png" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Netflix Dashboard</h3>
+                <p class="portfolio-description">
+                  dashboard to provide valuable insights into the most popular content, number of views, and popular directories.
+                </p>
+                <a
+                  href="https://public.tableau.com/app/profile/ahmad.khoiru.shofa/viz/dashboardnetflix_16980913448090/Dashboard1"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-angles">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-angle-right swiper-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-angle-left swiper-icon"></i>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+
+      <!-- portfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Projects</h2>
+        <span class="section-subtitle">Machine Learning & Deep Learning</span>
+
+        <div class="portfolio-container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- project1  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project11.jpeg" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">SMS Spam Classification</h3>
+                <p class="portfolio-description">
+                  Predict whether the email received is spam or not spam.
+                </p>
+                <a
+                  href="https://github.com/ahmadkhoirushofa/NLP-Spam-Classification"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+            <!-- project2  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project12.png" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Stroke Prediction</h3>
+                <p class="portfolio-description">
+                  Predict the possibility of a stroke in a patient.
+                </p>
+                <a
+                  href="https://github.com/ahmadkhoirushofa/Stroke-prediction"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+
+                        <!-- project2  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project13.jpg" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Image Detections</h3>
+                <p class="portfolio-description">
+                  Enables users to automatically recognize and classify various types of cars with high accuracy.
+                </p>
+                <a
+                  href="https://github.com/ahmadkhoirushofa/imagedetections"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- project2  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project14.jpeg" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Scrapping Data</h3>
+                <p class="portfolio-description">
+                  Analyzes Pahamify application user comments taken via the Google Play Store and will show the number of positive, negative and neutral comments.
+                </p>
+                <a
+                  href="https://github.com/ahmadkhoirushofa/Sentiment-Analysis"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div> 
+
+            <!-- project3  -->
+            <div class="portfolio-content grid swiper-slide">
+              <img src="Assets/project15.jpg" alt="" class="portfolio-img" />
+
+              <div class="portfolio-data">
+                <h3 class="portfolio-title">Customer Segmentations</h3>
+                <p class="portfolio-description">
+                  Clustering customers in a mall according to similarities in customer behavior.
+                </p>
+                <a
+                  href="https://github.com/ahmadkhoirushofa/Sentiment-Analysis"
+                  target="_blank"
+                  class="button button-flex button-small portfolio-button"
+                  >Project Link
+                  <i class="fa-solid fa-arrow-right button-icon"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-angles">
+            <div class="swiper-button-next">
+              <i class="fa-solid fa-angle-right swiper-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fa-solid fa-angle-left swiper-icon"></i>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- contact me  -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact me</h2>
+        <span class="section-subtitle">Get in touch</span>
+
+        <div class="contact-container container grid">
+          <div>
+            <div class="contact-info">
+              <i class="fa-regular fa-envelope contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Email</h3>
+                <a
+                  href="mailto:khoirushofa99@gmail.com"
+                  target="_blank"
+                  class="contact-subtitle"
+                  >khoirushofa99@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-info">
+              <i class="fa-brands fa-linkedin-in contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Linkedin</h3>
+                <a
+                  class="contact-subtitle"
+                  href="https://www.linkedin.com/in/ahmad-khoiru-shofa/"
+                  target="_blank"
+                  >Ahmad Khoiru Shofa</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer  -->
+      <footer class="footer">
+        <div class="footer-bg">
+          <div class="footer-container container grid">
+            <div>
+              <h1 class="footer-title">Ahmad Khoiru Shofa</h1>
+              <span class="footer-subtitle">Machine Learning & Data Enthusiast</span>
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="#services" class="footer-link">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="footer-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact" class="footer-link">Contact</a>
+              </li>
+            </ul>
+
+            <div class="footer-socials">
+              <a
+                href="https://www.linkedin.com/in/ahmad-khoiru-shofa/"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/ahmadkhoirushofa"
+                target="_blank"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/chr_shaff/"
+                target="_blank"
+                class="footer-social"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <p class="footer-copy">By AKS</p>
+        </div>
+      </footer>
+    </main>
+
+    <a href="#home" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
+    </a>
+    <script src="Libraries/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9b634c15bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
